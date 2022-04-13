@@ -1,5 +1,5 @@
 ###PLACES CREATE
-POST "http://localhost:3000/places" 
+POST http://localhost:3000/places
 Content-Type: application/json
 
 {
