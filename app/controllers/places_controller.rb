@@ -13,8 +13,13 @@ class PlacesController < ApplicationController
     render json: place.as_json
   end
 
+  def show
+    place = Place.find_by(id: params[:id]) 
+    render json: place.as_json
   end
-  #create
-  #show
+
+
+  end
+  
   #update
   #destroy
