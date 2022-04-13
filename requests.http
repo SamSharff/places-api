@@ -1,3 +1,6 @@
+###PLACES INDEX
+GET http://localhost:3000/places
+
 ###PLACES CREATE
 POST http://localhost:3000/places
 Content-Type: application/json
@@ -9,3 +12,12 @@ Content-Type: application/json
 
 ###PLACES SHOW
 GET http://localhost:3000/place/3
+
+###PLACES UPDATE
+PATCH http://localhost:3000/place/6
+Content-Type: application/json
+
+{
+  "name": "Disney Land",
+  "address": "Californ-i-a"
+}
