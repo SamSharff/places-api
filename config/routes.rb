@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   post "/places" => "places#create"
   get "/place/:id" => "places#show"
   patch "/place/:id" => "places#update"
-  delete "/places/:id" => "places#destroy"
+  delete "/place/:id" => "places#destroy"
 end

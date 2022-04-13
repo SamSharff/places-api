@@ -21,3 +21,6 @@ Content-Type: application/json
   "name": "Disney Land",
   "address": "Californ-i-a"
 }
+
+###PLACES DESTROY
+DELETE http://localhost:3000/place/6
